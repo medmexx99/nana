@@ -15,7 +15,7 @@ option(NANA_CMAKE_STD_FILESYSTEM_FORCE "Use of STD filesystem?(a compilation err
 option(NANA_CMAKE_BOOST_FILESYSTEM_FORCE "Force use of Boost filesystem if available (over STD)?" OFF)
 set (TEST_FS_LIB OFF)
 
-// ref: http://nanapro.org/en-us/forum/index.php?u=/topic/1268/ggerror-in-select-filesystem-cmake
+#ref: http://nanapro.org/en-us/forum/index.php?u=/topic/1268/ggerror-in-select-filesystem-cmake
 include(CheckIncludeFileCXX)
 
 if(NANA_CMAKE_NANA_FILESYSTEM_FORCE)
